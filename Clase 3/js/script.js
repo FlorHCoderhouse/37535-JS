@@ -1,4 +1,6 @@
-/* for(let i  = 1; i<=3;i++){
+/* 
+//Bucle for
+for(let i  = 1; i<=3;i++){
 
 alert('Usted es el jefe de los minisuper? Esta es la repetición '+i+' del bucle')
 
@@ -8,27 +10,34 @@ alert('Gracias, vuelvan prontos');
 
 
 
-/* for(let i=10; i>0;i--){
+/* 
+//Acá hacemos una cuenta regresiva
+for(let i=10; i>0;i--){
     alert('Faltan '+ i + ' segundos para 2023.')
 }
 
 alert ('Feliz 2023!') */
 
 
-/* for (let i = 1; i <= 10; i++) {
+/* 
+//Podemos usar el valor de la variable i para hacer operaciones en cada iteración
+for (let i = 1; i <= 10; i++) {
     console.log('1*' + i + ' es igual a ' + (1 * i));
 }
  */
 
-/* let nombre;
-
+/* 
+//Le pedimos un dato al usuario en cada iteración
+let nombre;
 
 for(let i = 0;i<3;i++){
     nombre = prompt ('Ingresá tu nombre');
     alert('Buen día, '+ nombre);
 } */
 
-/* let savedPass = 'alohomora';
+/* 
+//Sentencia break
+let savedPass = 'alohomora';
 
 for (let i = 0; i < 3; i++) {
     let password = prompt('Ingresá tu contraseña');
@@ -36,16 +45,15 @@ for (let i = 0; i < 3; i++) {
         alert('Bienvenido/a');
         break;
     }
-
-
-
 } 
 
 alert('fin del proceso');
 */
 
 
-/* for(let i = 0;i<10;i++){
+/* 
+//sentencia continue
+for(let i = 0;i<10;i++){
     if(i==4){
         alert('sapo muerto');
         //continue;
@@ -54,14 +62,18 @@ alert('fin del proceso');
 }
  */
 
-/* let repetir = true;
+/* 
+//Bucle while
+let repetir = true;
 
 while(repetir){
     console.log('Soy un bucle while');
     repetir=false;
 } */
 
-/* let contador = 0;
+/* 
+//while con una variable numérica
+let contador = 0;
 
 while (contador < 5) {
     console.log(contador);
@@ -69,7 +81,8 @@ while (contador < 5) {
 } */
 
 
-/* let kilometraje = 1000;
+/* 
+let kilometraje = 1000;
 
 while (kilometraje>0){
     console.log('P.Sherman, calle wallabee 42 Sydney')
@@ -98,9 +111,11 @@ while(colorSecreto!=pedidoBruja){
     pedidoBruja = prompt('Elegí otro color');
 }
 
-alert('A correr como changos!'); */
+alert(pedidoBruja +'a correr como changos!'); */
 
-/* let condicion = false;
+/* 
+//Bucle do...while
+let condicion = false;
 
 do {
     console.log('Soy un do...while');
@@ -119,7 +134,8 @@ do {
     }
 } while (continuar); */
 
-
+/*
+//Switch
 let opcion = prompt('Elegí una opción: \n1 - Té \n2 - Café \n3 - Chocolate');
 
 switch (opcion) {
@@ -137,5 +153,5 @@ switch (opcion) {
         break;
 }
 
-
+*/
 
