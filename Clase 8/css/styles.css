@@ -1,0 +1,34 @@
+.codertitulo{
+    background-color: yellow;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.prohibido{
+    text-decoration: line-through;
+}
+
+.resaltado{
+    background-color: lightgoldenrodyellow;
+}
+
+.greyBG{
+    background-color: lightgray;
+}
+
+.imagen{
+    width: 300px;
+}
+
+.card{
+    width:400px;
+    border: grey solid 1px;
+    margin: 30px;
+}
+
+.sinPunto{
+    list-style:none;
+}
