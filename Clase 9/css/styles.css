@@ -1,9 +1,9 @@
-body{
-    background-color:lightgrey
+body {
+    background-color: lightgrey
 }
 
 
-.coderTitulo{
+.coderTitulo {
     background-color: yellow;
     font-size: 50px;
     font-weight: 200;
@@ -43,25 +43,36 @@ div#destino {
     padding: 20px;
 }
 
-.formulario input{
+.formulario input {
     margin-bottom: 10px;
 }
 
-.tarjeta{
+.tarjeta {
     width: 300px;
     border: 1px solid black;
     border-radius: 5px;
-    text-align:center;
-   /* background-color: white;*/
+    text-align: center;
+    /* background-color: white;*/
 }
 
-.imagen{
-    
-    max-width:270px;
+.imagen {
+
+    max-width: 270px;
     padding: 15px;
-    
+
 }
 
-.hover{
+.hover {
     border: solid 3px black;
+}
+
+.caja {
+    width: 498px;
+    height: 326px;
+    background: url('https://c.tenor.com/H5yWGpwP2msAAAAC/australia-america.gif');
+    background-size: cover;
+    border: 15px rgb(253, 233, 12) solid;
+    padding: 50px;
+    margin: 100px;
+
 }
