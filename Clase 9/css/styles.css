@@ -1,0 +1,67 @@
+body{
+    background-color:lightgrey
+}
+
+
+.coderTitulo{
+    background-color: yellow;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+div {
+    width: 600px;
+    text-align: justify;
+    padding: 1rem;
+}
+
+div#fuente {
+    background-color: antiquewhite;
+    border: 2px solid goldenrod;
+}
+
+div#destino {
+    background-color: honeydew;
+    border: 2px solid lightseagreen;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+}
+
+.formulario {
+    width: 200px;
+    background-color: cornsilk;
+    text-align: justify;
+    padding: 20px;
+}
+
+.formulario input{
+    margin-bottom: 10px;
+}
+
+.tarjeta{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align:center;
+   /* background-color: white;*/
+}
+
+.imagen{
+    
+    max-width:270px;
+    padding: 15px;
+    
+}
+
+.hover{
+    border: solid 3px black;
+}

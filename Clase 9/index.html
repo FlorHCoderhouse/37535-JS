@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" />
+    <title>Clase 9 - Eventos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1 class="coderTitulo">Clase 9 - Eventos - JS Coderhouse</h1>
+
+
+    <div>
+        <h2>Un form simple de suscripción</h2>
+        <form id="suscripcion" action="" class="formulario">
+            <label for="nombre">Tu nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Ani Pérez"><br>
+            <label for="email">Tu correo</label><br>
+            <input type="email" name="email" id="email"><br>
+            <input type="submit" id="generico" value="Saludo Generico">
+            <input type="submit" id="personalizado" value="Saludo Personalizado">
+            <button type="button" id="tester">Hace click</button>
+        </form>
+    </div>
+
+    <div class="tarjeta">
+        <h2>Comprar Zapatillas</h2>
+        <p>Elegir color</p>
+        <label for="beige">Beige</label>
+        <input type="radio" name="colorConverse" id="beige" class="radiobutton" value="beige" checked>
+        <label for="negro">Negro</label>
+        <input type="radio" name="colorConverse" id="negro" class="radiobutton" value="negro">
+
+        <img id="zapatillaConverse" class="imagen" src="./img/converse_beige.jfif" alt="">
+    </div>
+
+
+    <div>
+        <h2>Un form más</h2>
+        <p>Ingresa un nombre de usuario (sólo puedes usar minúsculas): </p>
+        <form>
+            <label for="usuario">Ingresa tu usuario</label>
+            <input type="text" id="usuario">
+
+            <label for="password">Ingresá tu contraseña</label>
+            <input type="password" id="password">
+
+            <input type="submit" id="btnGuardar" value="Guardar">
+        </form>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
