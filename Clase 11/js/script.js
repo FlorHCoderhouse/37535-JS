@@ -100,7 +100,7 @@ function guardarPFenStorage(pf) {
 
 //Esta función va a recuperar un objeto del storage si se guardó (a través de la key), y a devolver false si no existe
 function recuperarPFDeStorage(pf) {
-    let plazoFijo = JSON.parse(localStorage.getItem(pf));
+   let plazoFijo = JSON.parse(localStorage.getItem(pf));
 
     if (plazoFijo == null) {
         return false;
@@ -108,6 +108,9 @@ function recuperarPFDeStorage(pf) {
         return plazoFijo;
     }
 
+//const plazoFijo =  JSON.parse(localStorage.getItem(pf))||false;
+
+    //plazoFijo==null?false:plazoFijo;
 }
 
 
@@ -176,9 +179,14 @@ function crearHTMLInfoUsuario(pf, calculos) {
 //Las acciones a realizarse al clickear en el botón "siguiente"
 btnSiguiente.addEventListener('click', () => {
     const datosPF = crearObjetoPF();
-    if (checkDatos.checked) {
+    checkDatos.checked && guardarPFenStorage(datosPF);
+
+/*     if (checkDatos.checked) {
         guardarPFenStorage(datosPF);
-    }
+    } */
+
+
+
 
     //Mostrar y ocultar las secciones que corresponden
     cardIngreso.classList.replace('visible', 'oculta');
